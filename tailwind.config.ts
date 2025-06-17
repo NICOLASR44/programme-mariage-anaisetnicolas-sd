@@ -116,12 +116,24 @@ export default {
 				'fade-in': {
 					'0%': { opacity: '0', transform: 'translateY(20px)' },
 					'100%': { opacity: '1', transform: 'translateY(0)' }
+				},
+				'sway': {
+					'0%, 100%': { transform: 'rotate(0deg) translateX(0px)' },
+					'25%': { transform: 'rotate(2deg) translateX(2px)' },
+					'50%': { transform: 'rotate(0deg) translateX(0px)' },
+					'75%': { transform: 'rotate(-2deg) translateX(-2px)' }
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0px) rotate(0deg)' },
+					'50%': { transform: 'translateY(-10px) rotate(1deg)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
-				'fade-in': 'fade-in 0.6s ease-out'
+				'fade-in': 'fade-in 0.6s ease-out',
+				'sway': 'sway 6s ease-in-out infinite',
+				'float': 'float 10s ease-in-out infinite'
 			}
 		}
 	},

@@ -1,13 +1,45 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { Calendar, Clock, MapPin, Heart, Flower, Users, Camera, Gift } from "lucide-react";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-sage-50 via-cream-50 to-sage-100">
+    <div className="min-h-screen bg-gradient-to-br from-sage-50 via-cream-50 to-sage-100 relative overflow-hidden">
+      {/* Animated Pampas Background */}
+      <div className="absolute inset-0 pointer-events-none">
+        {/* Left side pampas */}
+        <div className="absolute -left-20 top-20 w-40 h-60 opacity-20">
+          <div className="w-full h-full bg-gradient-to-t from-sage-300 to-sage-200 rounded-full transform rotate-12 animate-[sway_6s_ease-in-out_infinite]"></div>
+        </div>
+        <div className="absolute -left-10 top-60 w-32 h-48 opacity-15">
+          <div className="w-full h-full bg-gradient-to-t from-sage-400 to-sage-300 rounded-full transform -rotate-6 animate-[sway_8s_ease-in-out_infinite_reverse]"></div>
+        </div>
+        <div className="absolute -left-32 bottom-40 w-36 h-56 opacity-10">
+          <div className="w-full h-full bg-gradient-to-t from-cream-400 to-cream-300 rounded-full transform rotate-20 animate-[sway_7s_ease-in-out_infinite]"></div>
+        </div>
+        
+        {/* Right side pampas */}
+        <div className="absolute -right-16 top-32 w-44 h-64 opacity-20">
+          <div className="w-full h-full bg-gradient-to-t from-sage-300 to-sage-200 rounded-full transform -rotate-15 animate-[sway_9s_ease-in-out_infinite]"></div>
+        </div>
+        <div className="absolute -right-8 top-80 w-28 h-44 opacity-15">
+          <div className="w-full h-full bg-gradient-to-t from-cream-400 to-cream-300 rounded-full transform rotate-8 animate-[sway_5s_ease-in-out_infinite_reverse]"></div>
+        </div>
+        <div className="absolute -right-28 bottom-60 w-40 h-58 opacity-12">
+          <div className="w-full h-full bg-gradient-to-t from-sage-400 to-sage-300 rounded-full transform -rotate-25 animate-[sway_6.5s_ease-in-out_infinite]"></div>
+        </div>
+        
+        {/* Center floating pampas */}
+        <div className="absolute right-1/4 top-1/4 w-24 h-36 opacity-8">
+          <div className="w-full h-full bg-gradient-to-t from-cream-300 to-cream-200 rounded-full transform rotate-45 animate-[float_10s_ease-in-out_infinite]"></div>
+        </div>
+        <div className="absolute left-1/3 bottom-1/3 w-20 h-32 opacity-6">
+          <div className="w-full h-full bg-gradient-to-t from-sage-300 to-sage-200 rounded-full transform -rotate-30 animate-[float_12s_ease-in-out_infinite_reverse]"></div>
+        </div>
+      </div>
+
       {/* Hero Section */}
-      <div className="relative overflow-hidden bg-gradient-to-r from-sage-200 to-cream-200 py-16 px-4">
+      <div className="relative overflow-hidden bg-gradient-to-r from-sage-200 to-cream-200 py-16 px-4 z-10">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center opacity-20"></div>
         <div className="relative z-10 max-w-4xl mx-auto text-center">
           <div className="flex justify-center mb-6">
@@ -28,7 +60,7 @@ const Index = () => {
         </div>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 py-12">
+      <div className="max-w-6xl mx-auto px-4 py-12 relative z-10">
         {/* Programme de la journée */}
         <div className="mb-16 animate-fade-in">
           <div className="text-center mb-12">

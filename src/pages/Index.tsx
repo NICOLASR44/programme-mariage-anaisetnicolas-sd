@@ -1,3 +1,4 @@
+
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { Calendar, Clock, MapPin, Heart, Flower, Users, Camera, Gift } from "lucide-react";
@@ -8,33 +9,66 @@ const Index = () => {
       {/* Animated Pampas Background */}
       <div className="absolute inset-0 pointer-events-none">
         {/* Left side pampas */}
-        <div className="absolute -left-20 top-20 w-40 h-60 opacity-40">
-          <div className="w-full h-full bg-gradient-to-t from-sage-400 to-sage-300 rounded-full transform rotate-12 animate-[sway_6s_ease-in-out_infinite] shadow-lg"></div>
+        <div className="absolute -left-16 top-20 w-8 h-80 opacity-30">
+          <div className="w-full h-full bg-gradient-to-t from-sage-600 via-sage-400 to-sage-200 rounded-t-full transform rotate-12 animate-[sway_6s_ease-in-out_infinite] shadow-lg"
+               style={{clipPath: 'ellipse(40% 100% at 50% 100%)'}}></div>
+          <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 w-12 h-16 bg-gradient-to-t from-sage-300 to-transparent rounded-full opacity-60"
+               style={{clipPath: 'ellipse(60% 100% at 50% 100%)'}}></div>
+          <div className="absolute -top-2 left-1/3 w-8 h-12 bg-gradient-to-t from-sage-200 to-transparent rounded-full opacity-40"
+               style={{clipPath: 'ellipse(70% 100% at 50% 100%)'}}></div>
         </div>
-        <div className="absolute -left-10 top-60 w-32 h-48 opacity-35">
-          <div className="w-full h-full bg-gradient-to-t from-sage-500 to-sage-400 rounded-full transform -rotate-6 animate-[sway_8s_ease-in-out_infinite_reverse] shadow-md"></div>
+        
+        <div className="absolute -left-8 top-60 w-6 h-60 opacity-25">
+          <div className="w-full h-full bg-gradient-to-t from-cream-600 via-cream-400 to-cream-200 rounded-t-full transform -rotate-8 animate-[sway_8s_ease-in-out_infinite_reverse] shadow-md"
+               style={{clipPath: 'ellipse(45% 100% at 50% 100%)'}}></div>
+          <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 w-10 h-14 bg-gradient-to-t from-cream-300 to-transparent rounded-full opacity-50"
+               style={{clipPath: 'ellipse(65% 100% at 50% 100%)'}}></div>
         </div>
-        <div className="absolute -left-32 bottom-40 w-36 h-56 opacity-30">
-          <div className="w-full h-full bg-gradient-to-t from-cream-500 to-cream-400 rounded-full transform rotate-20 animate-[sway_7s_ease-in-out_infinite] shadow-lg"></div>
+        
+        <div className="absolute -left-20 bottom-40 w-10 h-70 opacity-20">
+          <div className="w-full h-full bg-gradient-to-t from-sage-700 via-sage-500 to-sage-300 rounded-t-full transform rotate-15 animate-[sway_7s_ease-in-out_infinite] shadow-lg"
+               style={{clipPath: 'ellipse(35% 100% at 50% 100%)'}}></div>
+          <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 w-14 h-18 bg-gradient-to-t from-sage-400 to-transparent rounded-full opacity-70"
+               style={{clipPath: 'ellipse(55% 100% at 50% 100%)'}}></div>
         </div>
         
         {/* Right side pampas */}
-        <div className="absolute -right-16 top-32 w-44 h-64 opacity-40">
-          <div className="w-full h-full bg-gradient-to-t from-sage-400 to-sage-300 rounded-full transform -rotate-15 animate-[sway_9s_ease-in-out_infinite] shadow-lg"></div>
+        <div className="absolute -right-12 top-32 w-10 h-85 opacity-30">
+          <div className="w-full h-full bg-gradient-to-t from-cream-700 via-cream-500 to-cream-300 rounded-t-full transform -rotate-18 animate-[sway_9s_ease-in-out_infinite] shadow-lg"
+               style={{clipPath: 'ellipse(38% 100% at 50% 100%)'}}></div>
+          <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 w-16 h-20 bg-gradient-to-t from-cream-400 to-transparent rounded-full opacity-60"
+               style={{clipPath: 'ellipse(50% 100% at 50% 100%)'}}></div>
+          <div className="absolute -top-3 left-1/4 w-10 h-15 bg-gradient-to-t from-cream-300 to-transparent rounded-full opacity-40"
+               style={{clipPath: 'ellipse(75% 100% at 50% 100%)'}}></div>
         </div>
-        <div className="absolute -right-8 top-80 w-28 h-44 opacity-35">
-          <div className="w-full h-full bg-gradient-to-t from-cream-500 to-cream-400 rounded-full transform rotate-8 animate-[sway_5s_ease-in-out_infinite_reverse] shadow-md"></div>
+        
+        <div className="absolute -right-4 top-80 w-7 h-55 opacity-25">
+          <div className="w-full h-full bg-gradient-to-t from-sage-600 via-sage-400 to-sage-200 rounded-t-full transform rotate-10 animate-[sway_5s_ease-in-out_infinite_reverse] shadow-md"
+               style={{clipPath: 'ellipse(42% 100% at 50% 100%)'}}></div>
+          <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 w-12 h-16 bg-gradient-to-t from-sage-300 to-transparent rounded-full opacity-55"
+               style={{clipPath: 'ellipse(60% 100% at 50% 100%)'}}></div>
         </div>
-        <div className="absolute -right-28 bottom-60 w-40 h-58 opacity-32">
-          <div className="w-full h-full bg-gradient-to-t from-sage-500 to-sage-400 rounded-full transform -rotate-25 animate-[sway_6.5s_ease-in-out_infinite] shadow-lg"></div>
+        
+        <div className="absolute -right-18 bottom-60 w-9 h-75 opacity-22">
+          <div className="w-full h-full bg-gradient-to-t from-cream-700 via-cream-500 to-cream-300 rounded-t-full transform -rotate-22 animate-[sway_6.5s_ease-in-out_infinite] shadow-lg"
+               style={{clipPath: 'ellipse(40% 100% at 50% 100%)'}}></div>
+          <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 w-15 h-19 bg-gradient-to-t from-cream-400 to-transparent rounded-full opacity-65"
+               style={{clipPath: 'ellipse(52% 100% at 50% 100%)'}}></div>
         </div>
         
         {/* Center floating pampas */}
-        <div className="absolute right-1/4 top-1/4 w-24 h-36 opacity-25">
-          <div className="w-full h-full bg-gradient-to-t from-cream-400 to-cream-300 rounded-full transform rotate-45 animate-[float_10s_ease-in-out_infinite] shadow-md"></div>
+        <div className="absolute right-1/4 top-1/4 w-5 h-45 opacity-15">
+          <div className="w-full h-full bg-gradient-to-t from-sage-500 via-sage-300 to-sage-100 rounded-t-full transform rotate-45 animate-[float_10s_ease-in-out_infinite] shadow-md"
+               style={{clipPath: 'ellipse(50% 100% at 50% 100%)'}}></div>
+          <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 w-8 h-12 bg-gradient-to-t from-sage-200 to-transparent rounded-full opacity-50"
+               style={{clipPath: 'ellipse(70% 100% at 50% 100%)'}}></div>
         </div>
-        <div className="absolute left-1/3 bottom-1/3 w-20 h-32 opacity-20">
-          <div className="w-full h-full bg-gradient-to-t from-sage-400 to-sage-300 rounded-full transform -rotate-30 animate-[float_12s_ease-in-out_infinite_reverse] shadow-sm"></div>
+        
+        <div className="absolute left-1/3 bottom-1/3 w-4 h-40 opacity-12">
+          <div className="w-full h-full bg-gradient-to-t from-cream-600 via-cream-400 to-cream-200 rounded-t-full transform -rotate-30 animate-[float_12s_ease-in-out_infinite_reverse] shadow-sm"
+               style={{clipPath: 'ellipse(45% 100% at 50% 100%)'}}></div>
+          <div className="absolute -top-2 left-1/2 transform -translate-x-1/2 w-7 h-10 bg-gradient-to-t from-cream-300 to-transparent rounded-full opacity-45"
+               style={{clipPath: 'ellipse(65% 100% at 50% 100%)'}}></div>
         </div>
       </div>
 

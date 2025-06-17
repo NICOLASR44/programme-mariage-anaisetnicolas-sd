@@ -8,33 +8,33 @@ const Index = () => {
       {/* Animated Pampas Background */}
       <div className="absolute inset-0 pointer-events-none">
         {/* Left side pampas */}
-        <div className="absolute -left-20 top-20 w-40 h-60 opacity-20">
-          <div className="w-full h-full bg-gradient-to-t from-sage-300 to-sage-200 rounded-full transform rotate-12 animate-[sway_6s_ease-in-out_infinite]"></div>
+        <div className="absolute -left-20 top-20 w-40 h-60 opacity-40">
+          <div className="w-full h-full bg-gradient-to-t from-sage-400 to-sage-300 rounded-full transform rotate-12 animate-[sway_6s_ease-in-out_infinite] shadow-lg"></div>
         </div>
-        <div className="absolute -left-10 top-60 w-32 h-48 opacity-15">
-          <div className="w-full h-full bg-gradient-to-t from-sage-400 to-sage-300 rounded-full transform -rotate-6 animate-[sway_8s_ease-in-out_infinite_reverse]"></div>
+        <div className="absolute -left-10 top-60 w-32 h-48 opacity-35">
+          <div className="w-full h-full bg-gradient-to-t from-sage-500 to-sage-400 rounded-full transform -rotate-6 animate-[sway_8s_ease-in-out_infinite_reverse] shadow-md"></div>
         </div>
-        <div className="absolute -left-32 bottom-40 w-36 h-56 opacity-10">
-          <div className="w-full h-full bg-gradient-to-t from-cream-400 to-cream-300 rounded-full transform rotate-20 animate-[sway_7s_ease-in-out_infinite]"></div>
+        <div className="absolute -left-32 bottom-40 w-36 h-56 opacity-30">
+          <div className="w-full h-full bg-gradient-to-t from-cream-500 to-cream-400 rounded-full transform rotate-20 animate-[sway_7s_ease-in-out_infinite] shadow-lg"></div>
         </div>
         
         {/* Right side pampas */}
-        <div className="absolute -right-16 top-32 w-44 h-64 opacity-20">
-          <div className="w-full h-full bg-gradient-to-t from-sage-300 to-sage-200 rounded-full transform -rotate-15 animate-[sway_9s_ease-in-out_infinite]"></div>
+        <div className="absolute -right-16 top-32 w-44 h-64 opacity-40">
+          <div className="w-full h-full bg-gradient-to-t from-sage-400 to-sage-300 rounded-full transform -rotate-15 animate-[sway_9s_ease-in-out_infinite] shadow-lg"></div>
         </div>
-        <div className="absolute -right-8 top-80 w-28 h-44 opacity-15">
-          <div className="w-full h-full bg-gradient-to-t from-cream-400 to-cream-300 rounded-full transform rotate-8 animate-[sway_5s_ease-in-out_infinite_reverse]"></div>
+        <div className="absolute -right-8 top-80 w-28 h-44 opacity-35">
+          <div className="w-full h-full bg-gradient-to-t from-cream-500 to-cream-400 rounded-full transform rotate-8 animate-[sway_5s_ease-in-out_infinite_reverse] shadow-md"></div>
         </div>
-        <div className="absolute -right-28 bottom-60 w-40 h-58 opacity-12">
-          <div className="w-full h-full bg-gradient-to-t from-sage-400 to-sage-300 rounded-full transform -rotate-25 animate-[sway_6.5s_ease-in-out_infinite]"></div>
+        <div className="absolute -right-28 bottom-60 w-40 h-58 opacity-32">
+          <div className="w-full h-full bg-gradient-to-t from-sage-500 to-sage-400 rounded-full transform -rotate-25 animate-[sway_6.5s_ease-in-out_infinite] shadow-lg"></div>
         </div>
         
         {/* Center floating pampas */}
-        <div className="absolute right-1/4 top-1/4 w-24 h-36 opacity-8">
-          <div className="w-full h-full bg-gradient-to-t from-cream-300 to-cream-200 rounded-full transform rotate-45 animate-[float_10s_ease-in-out_infinite]"></div>
+        <div className="absolute right-1/4 top-1/4 w-24 h-36 opacity-25">
+          <div className="w-full h-full bg-gradient-to-t from-cream-400 to-cream-300 rounded-full transform rotate-45 animate-[float_10s_ease-in-out_infinite] shadow-md"></div>
         </div>
-        <div className="absolute left-1/3 bottom-1/3 w-20 h-32 opacity-6">
-          <div className="w-full h-full bg-gradient-to-t from-sage-300 to-sage-200 rounded-full transform -rotate-30 animate-[float_12s_ease-in-out_infinite_reverse]"></div>
+        <div className="absolute left-1/3 bottom-1/3 w-20 h-32 opacity-20">
+          <div className="w-full h-full bg-gradient-to-t from-sage-400 to-sage-300 rounded-full transform -rotate-30 animate-[float_12s_ease-in-out_infinite_reverse] shadow-sm"></div>
         </div>
       </div>
 

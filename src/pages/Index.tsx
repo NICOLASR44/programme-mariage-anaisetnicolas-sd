@@ -61,7 +61,7 @@ const Index = () => {
 
       {/* Hero Section */}
       <div className="relative overflow-hidden bg-gradient-to-r from-sage-200 to-cream-200 py-16 px-4 z-10">
-        <div className="absolute inset-0 bg-[url('\Pampa.jpg')] bg-cover bg-center opacity-20"></div>
+        <div className="absolute inset-0 bg-[url('/Pampa.jpg')] bg-cover bg-center opacity-20"></div>
         <div className="relative z-10 max-w-4xl mx-auto text-center">
           <div className="flex justify-center mb-6">
             <Heart className="w-12 h-12 text-sage-600 animate-pulse" />

@@ -134,9 +134,7 @@ const Index = () => {
                       <span className="text-sage-500">Ouvrir Google Maps</span>
                     </a>
                     <a
-                      href="https://ul.waze.com/ul?place=ChIJjWoAW8ffDkgRriYEQJTHmRQ&ll=48.11146360%2C-1.68012380&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href="waze://?ll=48.11146360,-1.68012380&navigate=yes"
                       className="flex items-center hover:underline"
                     >
                       <MapPin className="w-5 h-5 mr-2 text-sage-500" />
@@ -199,9 +197,7 @@ const Index = () => {
                       <span className="text-sage-500">Ouvrir Google Maps</span>
                     </a>
                     <a
-                      href="https://ul.waze.com/ul?place=ChIJZ1oN8RLwDkgREJ8udYKUIGs&ll=48.23683880%2C-1.89718800&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href="waze://?ll=48.23683880,-1.89718800&navigate=yes"
                       className="flex items-center hover:underline"
                     >
                       <MapPin className="w-5 h-5 mr-2 text-sage-500" />

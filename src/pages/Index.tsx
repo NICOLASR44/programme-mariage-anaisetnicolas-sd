@@ -197,7 +197,7 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="font-playfair text-2xl font-semibold text-sage-800">Dîner</h3>
-                    <p className="text-sage-600 font-sans">Le plaisir des papilles, en toute simplicitéNP</p>
+                    <p className="text-sage-600 font-sans">Le plaisir des papilles, en toute simplicité</p>
                   </div>
                 </div>
                 <div className="space-y-3 text-sage-700">
@@ -236,7 +236,7 @@ const Index = () => {
                     <MapPin className="w-5 h-5 mr-3 text-sage-500 mt-0.5" />
                     <div className="font-sans">
                       <p>Rejoignez les mariés sur la piste de danse</p>
-                      <p className="text-sm text-sage-500">Préparer vos plus beaux déhanchés</p>
+                      <p className="text-sm text-sage-500">Préparez vos plus beaux déhanchés</p>
                     </div>
                   </div>
                 </div>

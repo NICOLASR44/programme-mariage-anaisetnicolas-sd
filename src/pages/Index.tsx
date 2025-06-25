@@ -75,76 +75,13 @@ const Index = () => {
         {/* Programme de la journée */}
         <div className="mb-16 animate-fade-in">
           <div className="text-center mb-12">
-            <h2 className="font-playfair text-4xl font-bold text-sage-800 mb-4">Programme des journées</h2>
+            <h2 className="font-playfair text-4xl font-bold text-sage-800 mb-4">Programme de la journée</h2>
             <div className="flex justify-center">
               <Separator className="w-24 bg-sage-300" />
             </div>
           </div>
 
-          {/* Cérémonie Civile */}
-
           <div className="grid md:grid-cols-2 gap-8">
-            <Card className="bg-white/80 backdrop-blur border-sage-200 shadow-lg hover:shadow-xl transition-all duration-300 text">
-              <CardContent className="p-8">
-                <div className="flex items-center mb-6">
-                  <div className="bg-sage-100 p-3 rounded-full mr-4">
-                    <Heart className="w-6 h-6 text-sage-600" />
-                  </div>
-                  <div>
-                    <h3 className="font-playfair text-2xl font-semibold text-sage-800">Cérémonie Civile</h3>
-                    <p className="text-sage-600 font-sans">Hôtel de ville - Rennes</p>
-                  </div>
-                </div>
-
-                <div className="space-y-4 text-sage-700">
-                  {/* Date */}
-                  <div className="flex items-center">
-                    <CalendarDays className="w-5 h-5 mr-3 text-sage-500" />
-                    <span className="font-sans">Vendredi 29 août 2025</span>
-                  </div>
-
-                  {/* Lieu */}
-                  <div className="flex items-start">
-                    <Landmark className="w-5 h-5 mr-3 text-sage-500 mt-0.5" />
-                    <div className="font-sans">
-                      <p>Mairie de Rennes</p>
-                      <p className="text-sm text-sage-500">Place de la Mairie, 35000 Rennes</p>
-                    </div>
-                  </div>
-
-                  {/* Heure */}
-                  <div className="flex items-center">
-                    <Clock className="w-5 h-5 mr-3 text-sage-500" />
-                    <span className="font-sans">Rendez-vous à 15h15</span>
-                  </div>
-                  <div className="flex items-center">
-                    <PartyPopper className="w-5 h-5 mr-3 text-sage-500" />
-                    <span className="font-sans">Début de cérémonie à 15h30</span>
-                  </div>
-
-                  {/* Liens de navigation */}
-                  <div className="mt-4 space-y-2 text-sm font-sans">
-                    <a
-                      href="https://maps.app.goo.gl/Zp1u9umYh5TPnwqf7"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center hover:underline"
-                    >
-                      <MapPin className="w-5 h-5 mr-2 text-sage-500" />
-                      <span className="text-sage-500">Ouvrir Google Maps</span>
-                    </a>
-                    <a
-                      href="waze://?ll=48.11146360,-1.68012380&navigate=yes"
-                      className="flex items-center hover:underline"
-                    >
-                      <MapPin className="w-5 h-5 mr-2 text-sage-500" />
-                      <span className="text-sage-500">Ouvrir dans Waze</span>
-                    </a>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
             {/* Cérémonie Laïque */}
             <Card className="bg-white/80 backdrop-blur border-sage-200 shadow-lg hover:shadow-xl transition-all duration-300">
               <CardContent className="p-8">
